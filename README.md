@@ -1,4 +1,4 @@
-Laporan Proyek Pengolahan Citra ( Image Processing )
+# Laporan Proyek Pengolahan Citra ( Image Processing )
 Proyek ini bertujuan untuk melakukan pengolahan citra dasar menggunakan Python dan OpenCV. Dalam proyek ini, kita akan membaca citra, melakukan binarisasi, inversi warna, dan erosi pada citra tersebut. Hasil dari setiap langkah akan divisualisasikan untuk menunjukkan perubahan yang terjadi pada citra asli.
  
  # Sumber Kode
