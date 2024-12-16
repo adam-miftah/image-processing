@@ -9,7 +9,9 @@ Sebelum menjalankan kode ini, pastikan Anda telah menginstal library berikut:
 - OpenCV
 - NumPy
 - Matplotlib
+
 Anda dapat menginstalnya menggunakan pip:
+
 pip install opencv-python numpy matplotlib
 
 # Penjelasan Kode
