@@ -3,7 +3,7 @@
 ## Deskripsi
 Proyek ini merupakan implementasi dasar pemrosesan citra menggunakan OpenCV dan Matplotlib di Google Colab. Skrip ini memungkinkan pengguna untuk mengunggah citra, mengonversinya ke grayscale, mendeteksi tepi menggunakan algoritma Canny, menerapkan Gaussian blur, serta menyimpan dan mengunduh hasil pemrosesan.
 
-:+1: # Sumber Kode
+# :+1: Sumber Kode
 Sumber kode ini diperoleh dari teman saya. Kode ini ditulis dalam Python dan menggunakan beberapa library penting untuk pengolahan citra.
 
 ## Fitur
