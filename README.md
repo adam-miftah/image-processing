@@ -1,23 +1,30 @@
-# Laporan Proyek Pengolahan Citra Digital ( Image Processing )
-Proyek ini bertujuan untuk melakukan pengolahan citra dasar menggunakan Python dan OpenCV. Dalam proyek ini, kita akan membaca citra, melakukan binarisasi, inversi warna, dan erosi pada citra tersebut. Hasil dari setiap langkah akan divisualisasikan untuk menunjukkan perubahan yang terjadi pada citra asli.
- 
- # Sumber Kode
+# Proyek Pemrosesan Citra dengan OpenCV ( Image Processing )
+
+## Deskripsi
+Proyek ini merupakan implementasi dasar pemrosesan citra menggunakan OpenCV dan Matplotlib di Google Colab. Skrip ini memungkinkan pengguna untuk mengunggah citra, mengonversinya ke grayscale, mendeteksi tepi menggunakan algoritma Canny, menerapkan Gaussian blur, serta menyimpan dan mengunduh hasil pemrosesan.
+
+# Sumber Kode
 Sumber kode ini diperoleh dari teman saya. Kode ini ditulis dalam Python dan menggunakan beberapa library penting untuk pengolahan citra.
 
-# Dependensi
-Sebelum menjalankan kode ini, pastikan Anda telah menginstal library berikut:
-- OpenCV
-- NumPy
-- Matplotlib
+## Fitur
+- Mengunggah citra dari sistem lokal.
+- Mengonversi citra menjadi grayscale.
+- Melakukan deteksi tepi dengan algoritma Canny.
+- Menerapkan Gaussian blur pada citra grayscale.
+- Menyimpan dan mengunduh gambar yang telah diproses.
 
-Anda dapat menginstalnya menggunakan pip:
+## Prerequisites
+Sebelum menjalankan skrip ini, pastikan Anda memiliki:
+- Akses ke Google Colab.
+- Citra yang ingin diproses dalam format yang didukung (misalnya .jpg, .png).
 
-pip install opencv-python numpy matplotlib
+## Cara Menggunakan
+1. Buka [Google Colab](https://colab.research.google.com/).
+2. Buka Colab ( open colab ).
+3. Pilih file yang sudah di download
+4. Jalankan sel atau code.
+5. Setelah pemrosesan selesai, Anda akan dapat mengunduh gambar hasil pemrosesan.
 
-# Penjelasan Kode
-1. Import Library: Mengimpor library yang diperlukan untuk pengolahan citra.
-2. Membaca Citra: Membaca citra dari file dan mengonversinya menjadi grayscale.
-3. Binarisasi Citra: Mengubah citra grayscale menjadi citra biner menggunakan metode Otsu.
-4. Inversi Citra: Membalikkan warna piksel dalam citra biner.
-5. Erosi Citra: Mengurangi ukuran objek dalam citra dengan menggunakan operasi morfologi erosi.
-6. Visualisasi Hasil: Menampilkan citra asli dan citra hasil erosi menggunakan Matplotlib.
+
+## Kontak
+Jika Anda memiliki pertanyaan atau saran mengenai proyek ini, silakan hubungi [Adam Miftahul Falah](adammiftah196@gmail.com).
