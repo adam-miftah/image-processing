@@ -27,4 +27,4 @@ Sebelum menjalankan skrip ini, pastikan Anda memiliki:
 
 
 ## Kontak
-Jika Anda memiliki pertanyaan atau saran mengenai proyek ini, silakan hubungi [Adam Miftahul Falah](adammiftah196@gmail.com).
+Jika Anda memiliki pertanyaan atau saran mengenai proyek ini, silakan hubungi [adam-miftah](adammiftah196@gmail.com).
