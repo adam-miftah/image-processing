@@ -1,30 +1,27 @@
-# Proyek Pemrosesan Citra dengan OpenCV ( Image Processing )
+# Image Processing with OpenCV
 
-## 💬Deskripsi
-Proyek ini merupakan implementasi dasar pemrosesan citra menggunakan OpenCV dan Matplotlib di Google Colab. Skrip ini memungkinkan pengguna untuk mengunggah citra, mengonversinya ke grayscale, mendeteksi tepi menggunakan algoritma Canny, menerapkan Gaussian blur, serta menyimpan dan mengunduh hasil pemrosesan.
+Proyek ini adalah aplikasi sederhana untuk memproses gambar menggunakan OpenCV dan Matplotlib di Google Colab. Aplikasi ini melakukan konversi gambar ke grayscale, mendeteksi tepi menggunakan algoritma Canny, dan menerapkan Gaussian blur pada gambar.
 
-## 💻Sumber Kode
-Sumber kode ini diperoleh dari teman saya. Kode ini ditulis dalam Python dan menggunakan beberapa library penting untuk pengolahan citra.
+## Fitur
 
-## ✨Fitur
-- Mengunggah citra dari sistem lokal.
-- Mengonversi citra menjadi grayscale.
-- Melakukan deteksi tepi dengan algoritma Canny.
-- Menerapkan Gaussian blur pada citra grayscale.
-- Menyimpan dan mengunduh gambar yang telah diproses.
+- **Konversi Gambar ke Grayscale**: Mengubah gambar berwarna menjadi grayscale.
+- **Deteksi Tepi**: Menggunakan algoritma Canny untuk mendeteksi tepi dalam gambar.
+- **Gaussian Blur**: Menerapkan efek blur pada gambar untuk mengurangi noise.
+- **Unduh Gambar**: Mengizinkan pengguna untuk mengunduh hasil pemrosesan gambar.
 
-## 🔧 Prerequisites
-Sebelum menjalankan skrip ini, pastikan Anda memiliki:
-- Akses ke Google Colab.
-- Citra yang ingin diproses dalam format yang didukung (misalnya .jpg, .png).
+## Persyaratan
 
-## 🚀Cara Menggunakan
-1. Buka [Google Colab](https://colab.research.google.com/).
-2. Buka Colab ( open colab ).
-3. Pilih file yang sudah di download
-4. Jalankan sel atau code.
-5. Setelah pemrosesan selesai, Anda akan dapat mengunduh gambar hasil pemrosesan.
+Untuk menjalankan kode ini, Anda perlu memastikan bahwa Anda memiliki lingkungan Python dengan paket berikut:
 
+- `opencv-python`
+- `matplotlib`
+- `google.colab` (hanya jika Anda menjalankan di Google Colab)
+
+## Cara Menjalankan
+
+1. **Unggah Gambar**: Saat menjalankan kode, Anda akan diminta untuk mengunggah file gambar (misalnya `image.jpg`).
+2. **Jalankan Kode**: Setelah gambar diunggah, kode akan secara otomatis memproses gambar dan menampilkan hasilnya.
+3. **Unduh Hasil**: Setelah pemrosesan selesai, Anda dapat mengunduh gambar hasil (grayscale, tepi, dan blur) yang telah diproses.
 
 ## 📧Kontak
 Jika Anda memiliki pertanyaan atau saran mengenai proyek ini, silakan hubungi [adam-miftah](adammiftah196@gmail.com).
